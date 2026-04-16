@@ -1,0 +1,364 @@
+/* General */
+body {
+    font-family: Arial;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+}
+
+.header h1 {
+    margin: 5px;
+}
+
+.header h2 {
+    margin: 5px;
+}
+
+/* Card Box */
+.container {
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+/* Button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Result */
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Footer Box */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #003366;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 0px 5px gray;
+}
+
+/* Question Box */
+.question {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+/* Question Title */
+.question p {
+    font-weight: bold;
+}
+
+/* Options */
+.option {
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.option:hover {
+    background-color: #e6f2ff;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* GENERAL */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(45deg, #003366, #0056b3);
+    color: white;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* CONTAINER */
+.container {
+    background: white;
+    padding: 25px;
+    margin: 30px auto;
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease-in;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    width: 85%;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+input[type="submit"], input[type="button"] {
+    padding: 10px 25px;
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+
+/* QUESTIONS */
+.question {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.question:hover {
+    box-shadow: 0px 0px 10px #b3d7ff;
+}
+
+/* OPTIONS */
+.option:hover {
+    background-color: #e6f2ff;
+    border-radius: 5px;
+}
+
+/* TIMER BAR */
+#progressBar {
+    width: 100%;
+    height: 10px;
+    background: lightgray;
+    margin-bottom: 10px;
+}
+
+#progress {
+    height: 10px;
+    width: 100%;
+    background: red;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
+
+/* RESULT */
+.pass { color: green; font-weight: bold; }
+.fail { color: red; font-weight: bold; }
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #003366;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* LOADER */
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* BACKGROUND */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+}
+
+/* GLASS EFFECT CONTAINER */
+.container {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 25px;
+    margin: 30px auto;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+/* FLOAT EFFECT */
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #007aff, #00c6ff);
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* BUTTON */
+input[type="submit"], input[type="button"] {
+    background: linear-gradient(135deg, #007aff, #00c6ff);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.25s ease;
+}
+
+/* BUTTON ANIMATION */
+input[type="submit"]:hover, input[type="button"]:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0,122,255,0.4);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+/* QUESTIONS */
+.question {
+    background: rgba(255,255,255,0.5);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.question:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* OPTION SELECT EFFECT */
+input[type="radio"]:checked + label {
+    background: #007aff;
+    color: white;
+}
+
+/* PROGRESS BAR */
+#progressBar {
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progress {
+    background: linear-gradient(to right, #007aff, #00c6ff);
+    height: 10px;
+    transition: width 1s linear;
+}
+
+/* TABLE */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #007aff;
+    color: white;
+}
+
+/* FOOTER */
+.footer {
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+@keyframes popIn {
+    0% { transform: scale(0.9); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.container {
+    animation: popIn 0.6s ease;
+}
